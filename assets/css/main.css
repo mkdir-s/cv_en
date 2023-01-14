@@ -114,6 +114,12 @@ body {
   text-decoration: none;
   padding: 9px 26px;
   border: 1px solid #161513;
+  transition: all .3s;
+}
+.header__button:hover {
+  background: #161513;
+  border: 1px solid #161513;
+  color: #fff;
 }
 
 .intro__wrapper {
@@ -162,13 +168,24 @@ body {
   border: 1px solid #161513;
   color: #fff;
   text-decoration: none;
+  transition: all .3s;
 }
-
+.intro__inform-button_black:hover {
+  border: 1px solid #161513;
+  color: #161513;
+  background: transparent;
+}
 .intro__inform-button_white {
   padding: 13px 33px;
   border: 1px solid #161513;
   text-decoration: none;
   color: #161513;
+  transition: all .3s;
+}
+.intro__inform-button_white:hover {
+  background: #161513;
+  border: 1px solid #161513;
+  color: #fff;
 }
 
 .intro__img img {
@@ -221,11 +238,14 @@ body {
 }
 
 .about__left-title {
-  font-size: 56px;
-  line-height: 64px;
+  max-width: 400px;
+  font-size: 25px;
+  font-weight: 700;
   letter-spacing: 0.56px;
   color: #161513;
+  margin: 0 auto;
 }
+
 
 .about__items {
   display: -webkit-box;
@@ -308,6 +328,11 @@ body {
   border-radius: 20px;
   color: #fff;
 }
+.works-info__title:hover {
+  border: 1px solid #161513;
+  color: #161513;
+  background: transparent;
+}
 
 
 .swiper {
@@ -337,9 +362,14 @@ body {
   display: block;
   text-align: center;
   font-size: 20px;
-  -webkit-transition: all .3s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
   transition: all .3s ease-in-out;
   border-radius: 20px;
+}
+.swiper-slide__item-link:hover {
+  border: 1px solid #161513;
+  color: #161513;
+  background: transparent;
 }
 
 .swiper-button-prev,
@@ -397,6 +427,12 @@ body {
   background: #131416;
   border: none;
   text-decoration: none;
+  transition: all .3s;
+}
+.contacts__right-button:hover {
+  border: 1px solid #161513;
+  color: #161513;
+  background: transparent;
 }
 
 .footer {
@@ -436,6 +472,9 @@ body {
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
+}
+.swiper-slide__item-link {
+  text-transform:lowercase;
 }
 
 
